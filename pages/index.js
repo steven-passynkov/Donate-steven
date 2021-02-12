@@ -16,7 +16,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to Steven's donation site
         </h1>
-
+        <h3>My name is Steven Passynkov</h3>
+        
         <div className={styles.grid}>
           {products.map(product =>{
           const {title,id} = product;
